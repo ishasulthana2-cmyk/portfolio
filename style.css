@@ -1,0 +1,15 @@
+
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,sans-serif;background:#0f172a;color:white}
+nav{display:flex;justify-content:space-between;align-items:center;padding:20px 8%;background:#111827;position:sticky;top:0}
+.links a{margin-left:15px;color:white;text-decoration:none}
+.download{padding:8px 14px;border:1px solid white;border-radius:8px}
+header{padding:120px 8%;text-align:center}
+header h1{font-size:3rem}
+header p{margin:15px 0}
+.btn{background:white;color:black;padding:12px 20px;border-radius:8px;text-decoration:none}
+section{padding:70px 8%}
+h2{margin-bottom:25px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card{background:#1e293b;padding:20px;border-radius:12px}
+footer{text-align:center;padding:30px;background:#111827}
